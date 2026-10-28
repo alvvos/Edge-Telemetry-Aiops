@@ -78,7 +78,7 @@ Levante los servicios contenerizados de Kafka, Elasticsearch, Backend Java y Fro
 Ejecute el motor matemático directamente sobre la máquina host para garantizar el acceso de lectura a los sensores físicos del hardware.
 `cd aiops-engine`
 `pip install -r requirements.txt`
-`python aiops_engine.py`
+`python run.py`
 
 3. Acceso al panel de control:
 Una vez que los servicios estén operando y el motor de Python comience a publicar mensajes, acceda mediante un navegador web a la dirección local en el puerto 3000 (http://localhost:3000) para visualizar el panel de métricas y anomalías en tiempo real.
