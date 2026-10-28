@@ -1,0 +1,3 @@
+com\backend\App.class
+com\backend\TelemetryConsumer.class
+com\backend\MetricsServlet.class

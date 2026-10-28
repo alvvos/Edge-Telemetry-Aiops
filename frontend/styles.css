@@ -1,0 +1,16 @@
+/* Limpieza de márgenes y ajuste de box-model general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Transiciones suaves para cuando los números de las tarjetas se actualicen */
+#cpu-value, #ram-value, #gpu-value {
+    transition: color 0.3s ease;
+}
+
+/* Forzar que el canvas de Plotly respete las esquinas redondeadas del contenedor */
+.js-plotly-plot .plotly {
+    border-radius: 0.5rem;
+}
