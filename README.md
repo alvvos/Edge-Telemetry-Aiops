@@ -1,6 +1,6 @@
 # Sistema de telemetría predictiva y AIOps
 
-Este repositorio contiene la implementación completa de un sistema de telemetría de hardware asistido por inteligencia artificial. La arquitectura está diseñada para capturar métricas físicas en tiempo real, calcular márgenes de confianza estocásticos en el origen y distribuir los datos a través de una infraestructura de eventos para su posterior indexación y visualización.
+Este repositorio, contiene la implementación completa de un sistema de telemetría de hardware asistido por inteligencia artificial. La arquitectura está diseñada para capturar métricas físicas en tiempo real, calcular márgenes de confianza estocásticos en el origen y distribuir los datos a través de una infraestructura de eventos para su posterior indexación y visualización.
 
 ## Arquitectura del sistema
 
